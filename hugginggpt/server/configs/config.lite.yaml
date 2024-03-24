@@ -5,7 +5,7 @@ huggingface:
 dev: false
 debug: false
 log_file: logs/debug.log
-model: text-davinci-003 # currently only support text-davinci-003, gpt-4, we will support more open-source LLMs in the future
+model: gpt-3.5-turbo # currently only support text-davinci-003, gpt-4, we will support more open-source LLMs in the future
 use_completion: true
 inference_mode: huggingface # local, huggingface or hybrid, prefer hybrid
 local_deployment: minimal # minimal, standard or full, prefer full
